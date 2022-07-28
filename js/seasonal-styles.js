@@ -48,15 +48,15 @@ $("document").ready(function(){
                 $("header h3").text("Jump into Winter wear!");
                 break
             case 'Default':
-                //se.stopImmediatePropagation();
-                // $("html").css("background-color", "blue");
+                
+                $("html").css("background-color", "#ccc");
 
-                // //left what is the attribute, right what to change the attribute to
-                // $("#wear").attr("src", "images/winter-wear.jpg");
+                //left what is the attribute, right what to change the attribute to
+                $("#wear").attr("src", "images/300x400.png");
 
-                // $("#logo").attr("src", "images/winter.gif");
+                $("#logo").attr("src", "images/four-seasons.gif");
 
-                // $("header h3").text("Jump into Winter wear!");
+                $("header h3").text("Outfitter for All Seasons!");
                 break
         }
             
